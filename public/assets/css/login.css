@@ -1,0 +1,243 @@
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login {
+    width: 900px;
+    height: 600px;
+    margin: 120px auto;
+}
+
+.parentdesc,
+.parentlogin {
+    width: 100%;
+    height: 460px;
+    position: relative;
+    float: right;
+}
+
+.parentdesc {
+    background-color: #a100ff;
+    text-align: center !important;
+}
+
+.parentlogin {
+    background-color: white;
+}
+
+.description {
+    width: 350px;
+    height: 260px;
+    padding: 3rem !important;
+    margin-top: 250px;
+    position: absolute;
+    top: -130px;
+    margin-left: 30px;
+}
+
+.description h2 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.description p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.description a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 35px;
+    border: solid 1px white;
+    border-radius: 22px;
+}
+
+.description a:hover {
+    background-color: white;
+    color: #3CC7EC;
+}
+
+form {
+    width: 350px;
+    height: 250px;
+    display: block;
+    position: absolute;
+    margin: 50%;
+    top: -165px;
+    left: -175px;
+}
+
+.title {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.title h1 {
+    width: 100%;
+    color: #9703cd !important;
+}
+
+.title .icon {
+    width: 75%;
+    display: flex;
+}
+
+.title .icon .social {
+    position: relative;
+    width: 32%;
+    justify-content: flex-end !important;
+}
+
+.title .icon .social .social-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.title .icon .social .social-icon:hover {
+    color: #f75959;
+}
+
+.parentlogin form h1 {
+    margin-bottom: 45px;
+}
+
+.parentlogin .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.parentlogin input {
+    height: 45px;
+    display: block;
+    width: 100%;
+    padding: 7px 2px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid gray;
+    background: rgba(0, 0, 0, 0.05);
+    color: #000;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.parentlogin .submit {
+    width: 100%;
+    height: 50px;
+    background-color: #a100ff;
+    margin-top: 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.parentlogin .submit:hover {
+    background-color: #fff;
+    color: #a100ff;
+    border: 2px solid #a100ff;
+}
+
+.extra {
+    position: relative;
+    display: flex;
+}
+
+.parentlogin .checkbox {
+    text-align: left;
+    width: 50%;
+}
+
+.parentlogin .checkbox label {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a100ff;
+    top: -15px;
+}
+
+.parentlogin .checkbox input {
+    position: absolute;
+    cursor: pointer;
+    left: -53px;
+    top: 1px;
+    height: 18px;
+    background-color: #f35588;
+}
+
+.parentlogin .forget a {
+    text-decoration: none;
+    color: red;
+    margin-top: -15px;
+    position: absolute;
+    right: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+    .parentdesc {
+        margin-top: 0px;
+        width: 100%;
+        height: 226px;
+    }
+    .description {
+        top: -243px;
+        margin-left: -6px;
+    }
+    .parentlogin {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        float: none;
+    }
+    form {
+        width: 100%;
+        height: 250px;
+        display: block;
+        position: absolute;
+        margin: 0% 2%;
+        top: 36px;
+        left: 10px;
+    }
+    .login {
+        width: 100%;
+        height: 300px;
+        margin: 23px auto;
+    }
+    .parentlogin input {
+        height: 40px;
+        width: 90%;
+        margin-bottom: 12px;
+    }
+    .parentlogin .submit {
+        width: 90%;
+    }
+    .parentlogin .forget a {
+        right: 48px;
+    }
+}
